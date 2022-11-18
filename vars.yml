@@ -1,0 +1,27 @@
+---
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  PLAYBOOK VARIABLES ARE FOUND HERE
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+vcenter_hostname: "username" # username or ipaddress of vcenter consol
+vcenter_datacenter: "vmwaredatacenter"
+vcenter_validate_certs: false
+vcenter_username: "username"
+vcenter_password: "yourpassword"
+vm_name: "myvm"
+vm_guestid: "centos64Guest"
+esxi_hostname: "enter ip address"
+vm_disk_gb: 100
+vm_disk_type: "thin"
+vm_disk_datastore: "<insert datastorename>"
+vm_hw_ram_mb: 16384
+vm_hw_cpu_n: 4
+vm_hw_scsi: "paravirtual"
+vm_net_name: "VM Network"
+vm_net_type: "vmxnet3"
+vcenter_destination_folder: "myvm"
+vm_state: "poweredon"
+vswitch_name: "vnet"
+vmnic_name: "name of network adapter"
+
+
