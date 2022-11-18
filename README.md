@@ -46,6 +46,7 @@ Host OS Hypervisor<br/>
 
 - An operating system that has a hypervisor (software)
 <br/>
+
 ## What is VMware: vSphere ESXi and vCenter
 <br/>
 
